@@ -3,9 +3,9 @@
     <Files>
       <File FileName="InformationTechnologyCompany/Company.cs" Line="1" Column="1" />
       <File FileName="InformationTechnologyCompany/TestGenerator.cs" Line="23" Column="1" />
-      <File FileName="InformationTechnologyCompany/HumanResourceDeparment.cs" Line="1" Column="1" />
-      <File FileName="InformationTechnologyCompany/Team.cs" Line="1" Column="1" />
-      <File FileName="InformationTechnologyCompany/TestGeneratorUtil.cs" Line="1" Column="1" />
+      <File FileName="InformationTechnologyCompany/HumanResourceDeparment.cs" />
+      <File FileName="InformationTechnologyCompany/Team.cs" />
+      <File FileName="InformationTechnologyCompany/TestGeneratorUtil.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
