@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{DA6FF121-4F27-40B7-BBE4-529F672382B7}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="InformationTechnology/Program.cs" Line="13" Column="1" />
+      <File FileName="InformationTechnology/ITCompanySimulation.cs" />
+      <File FileName="InformationTechnology/Person.cs" />
+      <File FileName="InformationTechnology/Entity.cs" />
+      <File FileName="InformationTechnology/Company.cs" />
+      <File FileName="InformationTechnology/Employee.cs" Line="13" Column="22" />
+      <File FileName="InformationTechnology/CompanyUtil.cs" Line="14" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InformationTechnology" expanded="True">
+            <Node name="InformationTechnology" expanded="True">
+              <Node name="CompanyUtil.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.InformationTechnology FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,12 @@
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.csprojAssemblyReference.cache
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.AssemblyInfoInputs.cache
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.AssemblyInfo.cs
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.csproj.CoreCompileInputs.cache
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/bin/Debug/netcoreapp3.1/InformationTechnology.deps.json
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/bin/Debug/netcoreapp3.1/InformationTechnology.runtimeconfig.json
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/bin/Debug/netcoreapp3.1/InformationTechnology.runtimeconfig.dev.json
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/bin/Debug/netcoreapp3.1/InformationTechnology.dll
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/bin/Debug/netcoreapp3.1/InformationTechnology.pdb
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.dll
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.pdb
+/Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnology.genruntimeconfig.cache
