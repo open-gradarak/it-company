@@ -1,25 +1,39 @@
-﻿<Properties StartupConfiguration="{DA6FF121-4F27-40B7-BBE4-529F672382B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="InformationTechnologyCompany/TestGenerator.cs">
+﻿<Properties StartupConfiguration="{247F4659-E921-46DD-A7B0-3E39664DB766}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InformationTechnologyCompany/Program.cs">
     <Files>
-      <File FileName="InformationTechnologyCompany/Company.cs" Line="1" Column="1" />
-      <File FileName="InformationTechnologyCompany/TestGenerator.cs" Line="23" Column="1" />
-      <File FileName="InformationTechnologyCompany/HumanResourceDeparment.cs" />
-      <File FileName="InformationTechnologyCompany/Team.cs" />
-      <File FileName="InformationTechnologyCompany/TestGeneratorUtil.cs" />
+      <File FileName="InformationTechnologyCompany/Company.cs" Line="29" Column="35" />
+      <File FileName="InformationTechnologyCompany/TestGenerator.cs" Line="42" Column="50" />
+      <File FileName="InformationTechnologyCompany/Team.cs" Line="52" Column="47" />
+      <File FileName="InformationTechnologyCompany/TestGeneratorUtil.cs" Line="1" Column="1" />
+      <File FileName="InformationTechnologyCompany/Department.cs" Line="25" Column="16" />
+      <File FileName="InformationTechnologyCompany/Unit.cs" Line="44" Column="10" />
+      <File FileName="InformationTechnologyCompany/Employee.cs" Line="58" Column="16" />
+      <File FileName="InformationTechnologyCompany/IReportable.cs" Line="9" Column="1" />
+      <File FileName="InformationTechnologyCompany/IHumanResource.cs" Line="4" Column="36" />
+      <File FileName="InformationTechnologyCompany/CompanyUtil.cs" Line="1" Column="1" />
+      <File FileName="ITManagementTool/Program.cs" Line="1" Column="1" />
+      <File FileName="ITManagementTool/HumanResourceOperations.cs" Line="2" Column="34" />
+      <File FileName="InformationTechnologyCompany/InformationTechnologyCompany.csproj" Line="9" Column="1" />
+      <File FileName="InformationTechnologyCompany/Program.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InformationTechnologyCompany" expanded="True">
             <Node name="InformationTechnologyCompany" expanded="True">
-              <Node name="TestGenerator.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="ITManagementTool" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.InformationTechnologyCompany PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ITManagementTool PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -27,6 +41,7 @@
       <Breakpoint file="/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnology/Team.cs" relfile="InformationTechnology/Team.cs" line="53" column="1" />
       <Breakpoint file="/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnology/Employee.cs" relfile="InformationTechnology/Employee.cs" line="112" column="1" />
       <Breakpoint file="/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnology/TestGenerator.cs" relfile="InformationTechnology/TestGenerator.cs" line="23" column="1" />
+      <Breakpoint file="/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/Program.cs" relfile="InformationTechnologyCompany/Program.cs" line="11" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

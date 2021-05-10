@@ -45,11 +45,11 @@ namespace InformationTechnologyCompany
 
         // Properties
         protected List<T> MemberList { get => memberList; }
-        protected string Name { get => name; set => name = value; }
+        public string Name { get => name; set => name = value; }
         protected int MinCapacity { get => minCapacity; set => minCapacity = value; }
         protected int MaxCapacity { get => maxCapacity; set => maxCapacity = value; }
         protected int Size { get => memberList.Count; }
-        protected string UnitId { get => unitId; }
+        public string UnitId { get => unitId; }
         protected UnitType UnitType { get => unitType; }
         protected DateTime CreateDate { get => createDate; }
         protected DateTime UpdateDate { get => updateDate; set => updateDate = value; }

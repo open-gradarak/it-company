@@ -10,7 +10,6 @@ namespace InformationTechnologyCompany
         Employee manager;
         string companyId = "";
         string departmentId = "";
-        Dictionary<string, Employee> employeeDictionary = new Dictionary<string, Employee> ();
 
         // Constructors
         public Team(string name, string departmentId, string companyId) : base(name, UnitType.Team)
@@ -25,27 +24,33 @@ namespace InformationTechnologyCompany
 
 
         // Propeties
-        public Employee Manager { get => manager; set { manager = value; this.Head = value; } }
+        public Employee Manager
+        {
+            get => manager;
+            set
+            { 
+                manager = value;
+                manager.Role = Role.Manager;
+                this.Head = value;
+            }
+        }
         public string DepartmentId { get => departmentId; set => departmentId = value; }
         public string CompanyId { get => companyId; set => companyId = value;} 
 
         // Methods
         public void AddEmployee(Employee employee)
         {
-            employeeDictionary.Add(employee.EmployeeId, employee);
             employee.CompanyId = this.companyId;
             employee.DepartmentId = this.departmentId;
             employee.TeamId = this.UnitId;
             this.AddMember(employee, true);
         }
 
-        public Employee GetEmployee(string employeeId)
+        public void RemoveEmployee(Employee employee)
         {
-            if (employeeDictionary.ContainsKey(employeeId))
-            {
-                return employeeDictionary.GetValueOrDefault(employeeId, null);
-            }
-            return null;
+            employee.TeamId = "";
+            this.RemoveMember(employee, true);
+
         }
 
         public string TeamToString()

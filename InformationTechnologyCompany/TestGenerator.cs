@@ -17,8 +17,8 @@ namespace InformationTechnologyCompany
             string lastName = TestGeneratorUtil.GetLastName();
             DateTime birthDate = TestGeneratorUtil.GetDateOfBirth(18, 70);
             string personalId = CompanyUtil.getGuid();
-            Employee employee = new Employee(specialistType, qualificationLevel, personalId, firstName, lastName, birthDate);
-            Employee otherEmployee = employee.ShallowCopy();
+            Employee employee = new Employee( personalId, firstName, lastName, birthDate, specialistType, qualificationLevel);
+            //Employee otherEmployee = employee.ShallowCopy();
             //Console.WriteLine(employee.ToString());
             return employee;
 
@@ -36,7 +36,7 @@ namespace InformationTechnologyCompany
 
         public static Company GenerateCompany()
         {
-            Company company = new Company("Consulting Corp");
+            Company company = new Company("Consulting Corp", "4085555555", "consultcorp@gmail.com", "1050 Mashtots Ave., Yerevan, 0002, Armenia");
             company.ChiefExecutiveOfficer = GenerateFutureEmployee();
             Department finDepartment = GenerateDepartment(DepartmentName.Finance);
             company.AddDepartment(finDepartment);

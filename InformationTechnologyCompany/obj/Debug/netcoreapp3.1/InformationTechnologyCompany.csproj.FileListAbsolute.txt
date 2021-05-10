@@ -10,8 +10,6 @@
 /Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.pdb
 /Users/ymeroyan/Projects/InformationTechnology/InformationTechnology/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.genruntimeconfig.cache
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/bin/Debug/netcoreapp3.1/InformationTechnologyCompany.deps.json
-/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/bin/Debug/netcoreapp3.1/InformationTechnologyCompany.runtimeconfig.json
-/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/bin/Debug/netcoreapp3.1/InformationTechnologyCompany.runtimeconfig.dev.json
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/bin/Debug/netcoreapp3.1/InformationTechnologyCompany.dll
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/bin/Debug/netcoreapp3.1/InformationTechnologyCompany.pdb
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.csprojAssemblyReference.cache
@@ -20,4 +18,3 @@
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.csproj.CoreCompileInputs.cache
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.dll
 /Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.pdb
-/Users/ymeroyan/Projects/InformationTechnologyCompany/InformationTechnologyCompany/obj/Debug/netcoreapp3.1/InformationTechnologyCompany.genruntimeconfig.cache

@@ -31,8 +31,18 @@ namespace InformationTechnologyCompany
         {
         }
 
+      
         // Propeties
-        public Employee Director { get => director; set { director = value; this.Head = value; } }
+        public Employee Director
+        {
+            get => director;
+            set
+            {
+                director = value;
+                director.Role = Role.Director;
+                this.Head = value;
+            }
+        }
         public string CompanyId { get => companyId; set => companyId = value; }
 
         // Methods
@@ -42,5 +52,6 @@ namespace InformationTechnologyCompany
             this.AddMember(team, true);
         }
 
+        
     }
 }

@@ -14,8 +14,8 @@ namespace InformationTechnologyCompany
         Manager,
         Director,
         ChiefExecutiveOfficer
-
     }
+
     public enum SpecialistType
     {
         Undefined,
@@ -27,6 +27,18 @@ namespace InformationTechnologyCompany
         MarketingingSpecialist,
     }
 
+    public enum Role
+    {
+        Undefined,
+        IndividualContributor,
+        Manager,
+        Director,
+        VicePresidend,
+        ChiefExecutiveOfficer
+    }
+
+
+
     public class Employee : Person, IReportable
     {
         // Fields
@@ -34,8 +46,9 @@ namespace InformationTechnologyCompany
         string companyId = "";
         string departmentId = "";
         string teamId = "";
-        QualificationLevel qualificationLevel;
+        QualificationLevel qualificationLevel = QualificationLevel.Undefined;
         SpecialistType specialistType = SpecialistType.Undefined;
+        Role role = Role.Undefined;
         DateTime startDate = DateTime.UtcNow;
         DateTime updateDate;
         DateTime endDate;
@@ -55,9 +68,8 @@ namespace InformationTechnologyCompany
             this.salary = salary;
         }
         // Prospective(candidate) employee
-        public Employee(SpecialistType specialistType,
-            QualificationLevel qualificationLevel,
-            string personalId, string firstName, string lastName, DateTime birthDate)
+        public Employee(string personalId, string firstName, string lastName, DateTime birthDate,
+            SpecialistType specialistType, QualificationLevel qualificationLevel)
             : base(personalId, firstName, lastName, birthDate)
         {
 
@@ -93,7 +105,8 @@ namespace InformationTechnologyCompany
         public DateTime UpdateDate { get => updateDate; }
         public DateTime EndDate { get => endDate; set => endDate = value; }
         public uint Salary { get => salary; set => salary = value; }
-        
+        public Role Role { get => role; set => role = value; }
+
 
 
         // Methods
@@ -110,6 +123,10 @@ namespace InformationTechnologyCompany
         public void GenerateReport()
         {
             Console.WriteLine(this.ToString());
+        }
+        public bool IsAssignedToTeam()
+        {
+            return this.teamId != null && this.teamId.Length > 0;
         }
     }
 }

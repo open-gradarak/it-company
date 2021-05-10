@@ -7,9 +7,12 @@ namespace InformationTechnologyCompany
     {
         // Fields
         Employee chiefExecutiveOfficer;
+        string phone;
+        string email;
+        string address;
 
         // Constructors
-        public Company(string name) : base(name, UnitType.Company)
+        public Company(string name, string phone, string email, string address) : base(name, UnitType.Company)
         {
         }
 
@@ -22,9 +25,14 @@ namespace InformationTechnologyCompany
             set
             {
                 chiefExecutiveOfficer = value;
+                chiefExecutiveOfficer.Role = Role.ChiefExecutiveOfficer;
                 this.Head = value;
             }
         }
+
+        public string Phone { get => phone; set => phone = value; }
+        public string Email { get => email; set => email = value; }
+        public string Address { get => address; set => address = value; }
 
 
 
